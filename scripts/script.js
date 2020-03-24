@@ -1,8 +1,8 @@
 function showMenu(){
-    var leftMenu = document.getElementById("leftMenuDiv");
+    var leftMenu = document.getElementById("section_left");
     var iconMenu = document.getElementById("menuIcon");
     if (leftMenu.style.marginLeft === "0px"){
-        leftMenu.style.marginLeft = "-"+leftMenu.offsetWidth+"px";
+        leftMenu.style.marginLeft = "-300px";
         iconMenu.src = "images/menu_icon.png";
     }
     else{

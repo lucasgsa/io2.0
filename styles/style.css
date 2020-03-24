@@ -3,6 +3,10 @@
     box-sizing: content-box;
 }
 
+body {
+    display: flex;
+}
+
 .contentSection {
     float: left;
     width: 100%;
@@ -33,7 +37,6 @@
 .page_fragment {
     width: 100%;
     height: 100%;
-    z-index: 1;
 }
 
 #avatar {
@@ -74,6 +77,8 @@
     width: 350px;
     height: 100%;
     position: fixed;
+    transition: all 1s;
+    margin-left: -300px;
     z-index: 1;
 }
 
@@ -83,8 +88,6 @@
     width: 300px;
     height: 100%;
     background-color: rgba(187, 187, 187, 0.8);
-    margin-left: -300px;
-    transition: all 0.7s;
 }
 
 #rightMenuDiv {
