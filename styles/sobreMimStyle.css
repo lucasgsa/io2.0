@@ -1,0 +1,20 @@
+#titulo {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2%;
+    cursor: default;
+}
+
+.aboutMe_top {
+    text-align: center;
+    font-size: 25px;
+    cursor: default;
+}
+
+.aboutMe_caracteristicas {
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: "#FFBA39";
+    cursor: default;
+}

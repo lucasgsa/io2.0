@@ -1,0 +1,38 @@
+#titulo {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2%;
+    cursor: default;
+}
+
+.href_ProjetoNome {
+    color: black;
+    cursor: pointer;
+}
+
+.href_ProjetoNome p {
+    float: left;
+    font-size: 25px;
+}
+
+.arrow_ProjetoNome {
+    float: left;
+    height: 25px;
+    width: 25px;
+}
+
+.div_meusProjetos {
+    display: table;
+    margin-left: 3%;
+}
+
+.description_projeto {
+    margin-left: 6%;
+    margin-bottom: 2%;
+    display: none;
+    cursor: default;
+}
+
+.description_projeto a {
+    color: black;
+}
