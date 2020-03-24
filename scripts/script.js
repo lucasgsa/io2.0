@@ -13,7 +13,7 @@ function showMenu(){
 }
 
 AOS.init();
-document.getElementById("menuIcon").onclick = showMenu;
+document.getElementById("rightMenuDiv").onclick = showMenu;
 
 function scrollTo(to){
     document.getElementById(to).scrollIntoView();

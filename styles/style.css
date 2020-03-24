@@ -4,21 +4,29 @@
 }
 
 body {
-    display: flex;
+    background-color: #a6da0c;
+    overflow-x: hidden;
 }
 
 .contentSection {
-    float: left;
     width: 100%;
     height: 100%;
     position: absolute;
 }
 
 .contentDiv {
-    width: 100%;
-    height: 100%;
+    width: 99%;
+    height: 99%;
+    min-height: 100%;
     overflow: hidden;
+    float: inline-end;
     z-index: 1;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: black;
+    border-style: solid;
+    border-width: 1%;
+    margin-top: 2px;
 }
 
 #div_sobreMim {
@@ -26,8 +34,7 @@ body {
 }
 
 #div_meusProjetos {
-    background-color: rgb(80, 79, 108);
-    z-index: 1;
+    background-color: rgb(31, 149, 98);
 }
 
 #div_experiencias {
@@ -103,12 +110,17 @@ body {
     border-left-style: double;
     border-left-color: black;
     border-left-width: 1px;
+
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+
+    cursor: pointer;
 }
 
 #rightMenuDiv #menuIcon {
     align-self: baseline;
     width: 48px;
     height: 48px;
-    cursor: pointer;
     transition: all 3s;
+    margin-top: 50%;
 }
